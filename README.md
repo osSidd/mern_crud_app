@@ -17,18 +17,19 @@ Only functionality needed for demonstrating CRUD operations have been provided, 
 For this task I have used a local mongodb installation - v6.0.4 - platform - windows.
 
 ### Server side code 
+I have used express-generator
 
-cd backend
+cd backend <br/>
 npm install
 
-To start the server
+To start the server <br/>
 npm start
 
 ### Frontend 
 I have used react + vite setup
 
-cd client
+cd client <br/>
 npm install
 
-To start local server
+To start local server <br/>
 npm run dev
