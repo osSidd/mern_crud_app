@@ -1,0 +1,52 @@
+.blog-component{
+    background: whitesmoke;
+    max-width: 90%;
+    width:720px;
+    padding: 1rem 2rem;
+    margin:1rem auto;
+    text-align: left;
+    position: relative;
+}
+
+.title{
+    font-size:1.75rem;
+}
+
+.date{
+    display: block;
+    margin-right: 2rem; 
+    color:#555;
+    font-size: 14px;
+}
+
+.body{
+    font-size: 1.25rem;
+}
+
+.link{
+    text-decoration: none;
+    color:#23c;
+    font-weight: 500;
+}
+
+.btn-container{
+    position: absolute;
+    top:2rem;
+    right:1rem;
+}
+
+.btn{
+    border:none;
+    padding: 7.5px 1rem;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    background: crimson;
+}
+
+.edit{
+    background: #58a;
+}

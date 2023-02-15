@@ -13,6 +13,16 @@ function reducer(state,action){
                 ...state,
                 blog: action.payload
             }
+        case 'CREATE_BLOG':
+            return {
+                ...state,
+                blogs: [action.payload, ...state.blogs]
+            }
+        case 'DELETE_BLOG':
+            return {
+                ...state,
+                blogs: state.blogs.filter(item => item._id !== action.payload._id)
+            }
         default:
             return state
     }
